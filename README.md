@@ -1,12 +1,4 @@
-# Mixture of Experts From Scratch
 
-This repository is my hands-on exploration of Mixture of Experts, starting from the fundamentals and gradually moving toward modern MoE architectures, routing, sparse computation, load balancing, training, distributed execution, inference, and production systems.
-
-The main goal is to understand **why Mixture of Experts was introduced, what problem it solves, how it changes the Transformer architecture, and what actually happens to every token inside an MoE model**.
-
-I do not want to treat MoE as simply another model architecture that can be enabled through a library.
-
-I want to build the important components myself and understand the complete path:
 
 ```text
 Dense Transformer
